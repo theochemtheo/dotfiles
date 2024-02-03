@@ -1,0 +1,7 @@
+import = [
+    "~/.config/alacritty/themes/hyper.toml",
+    "~/.config/alacritty/bindings.toml",
+]
+
+[window]
+startup_mode = "Maximized"
