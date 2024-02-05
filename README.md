@@ -28,5 +28,6 @@ Things from various dotfiles to remember and re-use, and references for setting 
   * [powerline fonts](https://github.com/powerline/fonts)
   * [vim-plug](https://github.com/junegunn/vim-plug)
   * open vim, then `:PlugInstall`
+* [pipx](https://github.com/pypa/pipx)
 * pyenv</br>
   `git clone https://github.com/pyenv/pyenv.git ~/.pyenv`
