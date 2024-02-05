@@ -13,12 +13,11 @@ Things from various dotfiles to remember and re-use, and references for setting 
 * zsh
     * [oh my zsh](https://ohmyz.sh/)
     * [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
+    * `brew install zsh-autosuggestions`
+    * `brew install zsh-syntax-highlighting`
 * lsd</br>
   `brew install lsd`
 * alacritty</br>
   `brew install alacritty` - app is in Applications folder
   * `mkdir -p $HOME/.config/alacritty/themes`
   * point softlinks from `$HOME/.config/alacritty/alacritty.toml` and `$HOME/.config/alacritty/themes/hyper.toml` to files in `alacritty/`
-
-# TODO
-* alt left and right keybinds for alacritty
