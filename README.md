@@ -21,3 +21,10 @@ Things from various dotfiles to remember and re-use, and references for setting 
   `brew install alacritty` - app is in Applications folder
   * `mkdir -p $HOME/.config/alacritty/themes`
   * point softlinks from `$HOME/.config/alacritty/alacritty.toml` and `$HOME/.config/alacritty/themes/hyper.toml` to files in `alacritty/`
+* vim
+  * Make `~/.vim` and subdirs</br>
+    `mkdir -p ~/.vim ~/.vim/autoload ~/.vim/backup ~/.vim/colors ~/.vim/plugged`
+  * link `~/.vimrc` to dotfiles `.vimrc`
+  * [powerline fonts](https://github.com/powerline/fonts)
+  * [vim-plug](https://github.com/junegunn/vim-plug)
+  * open vim, then `:PlugInstall`
