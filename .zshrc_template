@@ -21,8 +21,10 @@ cdp () { cd $HOME/p }
 cdr () { cd $(git rev-parse --show-toplevel) }
 
 # keybinds
-bindkey "^[[1;3C" forward-word
-bindkey "^[[1;3D" backward-word
+bindkey "^[[1;3C" forward-word      # ⌥ + ←
+bindkey "^[[1;3D" backward-word     # ⌥ + →
+bindkey "^[[1;9D" beginning-of-line # ⌘ + ←
+bindkey "^[[1;9C" end-of-line       # ⌘ + →
 
 # Python
 # pipx
