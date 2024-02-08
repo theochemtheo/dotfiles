@@ -21,9 +21,9 @@ alias ls="lsd"
 PATH="/opt/homebrew/opt/grep/libexec/gnubin:$PATH"
 
 # cd shortcuts
-cdw () { cd $HOME/w }
-cdp () { cd $HOME/p }
-cdr () { cd $(git rev-parse --show-toplevel) }
+cdw () { cd "$HOME"/w || exit; }
+cdp () { cd "$HOME"/p || exit; }
+cdr () { cd "$(git rev-parse --show-toplevel)" || exit; }
 
 # keybinds
 bindkey "^[[1;3C" forward-word      # ⌥ + ←
