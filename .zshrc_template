@@ -14,6 +14,8 @@ source $ZSH/oh-my-zsh.sh
 
 # new ls just dropped
 alias ls="lsd"
+# good grep
+PATH="/opt/homebrew/opt/grep/libexec/gnubin:$PATH"
 
 # cd shortcuts
 cdw () { cd $HOME/w }

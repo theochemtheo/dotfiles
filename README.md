@@ -31,3 +31,5 @@ Things from various dotfiles to remember and re-use, and references for setting 
 * [pipx](https://github.com/pypa/pipx)
 * pyenv</br>
   `git clone https://github.com/pyenv/pyenv.git ~/.pyenv`
+* `brew install grep` for `grep -P`
+* `brew install gh`
