@@ -1,7 +1,7 @@
 [user]
         name = Theo Keane
         email = <relevant default email for this machine>
-        signingkey = .ssh/<name_of_key>.pub
+        signingkey = /path/to/.ssh/<name_of_key>.pub
 [core]
         excludesfile = /path/to/home/.gitignore
         editor = code
