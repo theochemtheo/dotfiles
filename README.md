@@ -33,3 +33,11 @@ Things from various dotfiles to remember and re-use, and references for setting 
   `git clone https://github.com/pyenv/pyenv.git ~/.pyenv`
 * `brew install grep` for `grep -P`
 * `brew install gh`
+* `brew install gnu-sed` for `sed -E`
+* `brew install btop`
+* docker
+  * `brew install docker docker-credential-helper docker-buildx`
+  * `brew install colima`
+  * `brew services start colima`
+  * `mkdir -p ~/.oh-my-zsh/plugins/docker/`
+  * `curl -fLo ~/.oh-my-zsh/plugins/docker/_docker https://raw.githubusercontent.com/docker/cli/master/contrib/completion/zsh/_docker`

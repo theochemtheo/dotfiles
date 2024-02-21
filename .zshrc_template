@@ -9,6 +9,7 @@ export COMPLETION_WAITING_DOTS="true"
 export plugins=(
   git
   poetry
+  docker
   )
 source $ZSH/oh-my-zsh.sh
 
