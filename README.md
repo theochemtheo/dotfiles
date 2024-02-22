@@ -41,3 +41,5 @@ Things from various dotfiles to remember and re-use, and references for setting 
   * `brew services start colima`
   * `mkdir -p ~/.oh-my-zsh/plugins/docker/`
   * `curl -fLo ~/.oh-my-zsh/plugins/docker/_docker https://raw.githubusercontent.com/docker/cli/master/contrib/completion/zsh/_docker`
+* [noTunes](https://github.com/tombonez/noTunes) (stop itunes from opening when headphones are connected)</br>
+  `brew install --cask notunes`
