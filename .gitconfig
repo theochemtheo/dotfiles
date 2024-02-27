@@ -15,3 +15,5 @@
         enabled = true
 [maintenance]
         # repo = /path/to/repo
+[init]
+        defaultBranch = main
