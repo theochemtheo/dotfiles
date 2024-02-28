@@ -4,7 +4,8 @@
         signingkey = /path/to/.ssh/<name_of_key>.pub
 [core]
         excludesfile = /path/to/home/.gitignore
-        editor = code
+        editor = vim
+        autocrlf = input
 [color]
         ui = auto
 [gpg]
