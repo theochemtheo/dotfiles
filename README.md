@@ -47,3 +47,6 @@ Things from various dotfiles to remember and re-use, and references for setting 
   `brew install bat`
 * fzf for better ctrl + r</br>
   `brew install fzf`
+* [KeePassXC](https://keepassxc.org)
+  * If `keepassxc-cli` is not in `$PATH`</br>
+    `sudo ln -s /System/Volumes/Data/Applications/KeePassXC.app/Contents/MacOS/keepassxc-cli /usr/local/bin`
