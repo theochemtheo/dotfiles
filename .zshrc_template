@@ -39,6 +39,10 @@ bindkey "^[[1;9C" end-of-line       # ⌘ + →
 # Python
 # pipx
 export PATH="$PATH:/Users/tk/.local/bin"
+# pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
 
 # external zsh plugins must be at end of file
 source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme
