@@ -30,7 +30,7 @@ Things from various dotfiles to remember and re-use, and references for setting 
   * open vim, then `:PlugInstall`
 * [pipx](https://github.com/pypa/pipx)
 * pyenv</br>
-  `git clone https://github.com/pyenv/pyenv.git ~/.pyenv`
+  `brew install pyenv`
 * `brew install grep` for `grep -P`
 * `brew install gh`
 * `brew install gnu-sed` for `sed -E`
