@@ -61,6 +61,7 @@ set history=1000
 call plug#begin('~/.vim/plugged')
 
 Plug 'vim-airline/vim-airline'
+Plug '/opt/homebrew/opt/fzf'
 
 call plug#end()
 
