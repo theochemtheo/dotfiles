@@ -10,6 +10,7 @@ Things from various dotfiles to remember and re-use, and references for setting 
 
 ## Get these
 * homebrew
+* macports
 * zsh
     * [oh my zsh](https://ohmyz.sh/)
     * [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
@@ -21,6 +22,9 @@ Things from various dotfiles to remember and re-use, and references for setting 
   `brew install alacritty` - app is in Applications folder
   * `mkdir -p $HOME/.config/alacritty/themes`
   * point softlinks from `$HOME/.config/alacritty/alacritty.toml` and `$HOME/.config/alacritty/themes/hyper.toml` to files in `alacritty/`
+* wezterm</br>
+  `sudo port install wezterm`
+  * point softlink from `$HOME/.wezterm.lua` to `wezterm/.wezterm.lua`
 * vim
   * Make `~/.vim` and subdirs</br>
     `mkdir -p ~/.vim ~/.vim/autoload ~/.vim/backup ~/.vim/colors ~/.vim/plugged`
