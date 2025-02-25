@@ -7,6 +7,12 @@
         editor = vim
         autocrlf = input
         pager = delta
+        fsmonitor = true
+        untrackedCache = true
+[branch]
+        sort = -committerdate
+[tag]
+        sort = version:refname
 [color]
         ui = auto
 [gpg]
@@ -15,12 +21,15 @@
         gpgsign = true
 [rerere]
         enabled = true
+        autoupdate = true
 [init]
         defaultBranch = main
 [rebase]
         updateRefs = true
 [fetch]
         prune = true
+        pruneTags = true
+        all = true
 [interactive]
         diffFilter = delta --color-only
 [delta]
@@ -28,6 +37,11 @@
 [merge]
         conflictstyle = diff3
 [diff]
-        colorMoved = default
+        colorMoved = true
+        algorithm = histogram
+        mnemonicPrefix = true
+        renames = true
+[help]
+        autocorrect = prompt
 [maintenance]
         # repo = /path/to/repo
