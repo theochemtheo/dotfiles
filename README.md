@@ -32,9 +32,7 @@ Things from various dotfiles to remember and re-use, and references for setting 
   * [powerline fonts](https://github.com/powerline/fonts)
   * [vim-plug](https://github.com/junegunn/vim-plug)
   * open vim, then `:PlugInstall`
-* [pipx](https://github.com/pypa/pipx)
-* pyenv</br>
-  `brew install pyenv`
+* [`uv`](https://github.com/astral-sh/uv)
 * `brew install grep` for `grep -P`
 * `brew install gh`
 * `brew install gnu-sed` for `sed -E`
