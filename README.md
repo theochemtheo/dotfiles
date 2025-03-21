@@ -58,3 +58,5 @@ Things from various dotfiles to remember and re-use, and references for setting 
   `brew install ripgrep`
 * delta</br>
   `brew install git-delta`
+* fd</br>
+  `sudo port install fd`
