@@ -41,7 +41,6 @@ bindkey "^[[1;9C" end-of-line       # ⌘ + →
 export PATH="$PATH:/Users/tk/.local/bin"
 # uv
 eval "$(uv generate-shell-completion zsh)"
-eval "$(uvx generate-shell-completion zsh)"
 
 # external zsh plugins must be at end of file
 source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme
