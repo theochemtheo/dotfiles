@@ -21,10 +21,6 @@ Things from various dotfiles to remember and re-use, and references for setting 
     * `brew install zsh-syntax-highlighting`
 * lsd</br>
   `brew install lsd`
-* alacritty</br>
-  `brew install alacritty` - app is in Applications folder
-  * `mkdir -p $HOME/.config/alacritty/themes`
-  * point softlinks from `$HOME/.config/alacritty/alacritty.toml` and `$HOME/.config/alacritty/themes/hyper.toml` to files in `alacritty/`
 * wezterm</br>
   `sudo port install wezterm`
   * point softlink from `$HOME/.wezterm.lua` to `wezterm/.wezterm.lua`
