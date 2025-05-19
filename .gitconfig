@@ -1,7 +1,7 @@
-[user]
-        name = Theo Keane
-        email = <relevant default email for this machine>
-        signingkey = /path/to/.ssh/<name_of_key>.pub
+[includeIf "gitdir:/path/to/home/w/"]
+    path = ~/.gitconfig-work
+[includeIf "gitdir:/path/to/home/p/"]
+    path = ~/.gitconfig-personal
 [core]
         excludesfile = /path/to/home/.gitignore
         editor = vim

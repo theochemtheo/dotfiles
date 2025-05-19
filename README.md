@@ -8,6 +8,9 @@ Things from various dotfiles to remember and re-use, and references for setting 
 * https://www.robinwieruch.de/mac-setup-web-development/</br>
   Good system preferences section
 
+## git setup
+* Create actual `.gitconfig`, `.gitconfig-work`, `.gitconfig-personal` in ~ and fill in the details as necessary. Make sure that all paths are absolute paths in the credentials, _e.g._ `/Users/tk/...`.
+
 ## Get these
 * homebrew
 * macports

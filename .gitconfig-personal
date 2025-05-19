@@ -1,0 +1,5 @@
+# personal git credentials
+[user]
+    name = Theo Keane
+    email = <relevant personal email for this machine>
+    signingkey = /path/to/.ssh/<name_of_key>.pub
