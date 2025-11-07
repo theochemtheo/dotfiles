@@ -45,7 +45,7 @@ Now start `ghostty` and continue
 * GNU sed, apple sed is bad</br>
   `sudo port install gnu-sed`
 * delta</br>
-  `brew install git-delta`
+  `sudo port install git-delta`
 ### required utils
 * `gh` cli</br>
   `sudo port install gh`
