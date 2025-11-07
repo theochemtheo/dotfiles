@@ -19,11 +19,8 @@ source $ZSH/oh-my-zsh.sh
 alias svba="source .venv/bin/activate"
 # fzf for ctrl r
 eval "$(fzf --zsh)"
-# new ls just dropped
 alias ls="lsd"
-# good grep and sed
-PATH="/opt/homebrew/opt/grep/libexec/gnubin:$PATH"
-PATH="/opt/homebrew/opt/gnu-sed/libexec/gnubin:$PATH"
+alias sed="gsed"
 
 # cd shortcuts
 cdw () { cd "$HOME"/w || exit; }
