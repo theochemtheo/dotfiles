@@ -17,10 +17,10 @@ Things from various dotfiles to remember and re-use, and references for setting 
 * homebrew
 * macports
 * zsh
-    * [oh my zsh](https://ohmyz.sh/)
-    * [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
-    * `brew install zsh-autosuggestions`
-    * `brew install zsh-syntax-highlighting`
+  * [oh my zsh](https://ohmyz.sh/)
+  * [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
+  * `brew install zsh-autosuggestions`
+  * `brew install zsh-syntax-highlighting`
 * lsd</br>
   `brew install lsd`
 * wezterm</br>
