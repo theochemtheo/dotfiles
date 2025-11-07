@@ -37,8 +37,6 @@ bindkey "^[[1;9D" beginning-of-line # ⌘ + ←
 bindkey "^[[1;9C" end-of-line       # ⌘ + →
 
 # Python
-# pipx
-export PATH="$PATH:/Users/tk/.local/bin"
 # uv
 eval "$(uv --generate-shell-completion zsh)"
 # Fix completions for uv run.
