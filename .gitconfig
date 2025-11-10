@@ -3,46 +3,46 @@
 [includeIf "gitdir:/path/to/home/p/"]
     path = ~/.gitconfig-personal
 [core]
-        excludesfile = /path/to/home/.gitignore
-        editor = vim
-        autocrlf = input
-        pager = delta
-        fsmonitor = true
-        untrackedCache = true
+    excludesfile = /path/to/home/.gitignore
+    editor = vim
+    autocrlf = input
+    pager = delta
+    fsmonitor = true
+    untrackedCache = true
 [branch]
-        sort = -committerdate
+    sort = -committerdate
 [tag]
-        sort = version:refname
+    sort = version:refname
 [color]
-        ui = auto
+    ui = auto
 [gpg]
-        format = ssh
+    format = ssh
 [commit]
-        gpgsign = true
+    gpgsign = true
 [rerere]
-        enabled = true
-        autoupdate = true
+    enabled = true
+    autoupdate = true
 [init]
-        defaultBranch = main
+    defaultBranch = main
 [rebase]
-        updateRefs = true
+    updateRefs = true
 [fetch]
-        prune = true
-        pruneTags = true
-        all = true
+    prune = true
+    pruneTags = true
+    all = true
 [interactive]
-        diffFilter = delta --color-only
+    diffFilter = delta --color-only
 [delta]
-        navigate = true
-        side-by-side = true
+    navigate = true
+    side-by-side = true
 [merge]
-        conflictstyle = diff3
+    conflictstyle = diff3
 [diff]
-        colorMoved = true
-        algorithm = histogram
-        mnemonicPrefix = true
-        renames = true
+    colorMoved = true
+    algorithm = histogram
+    mnemonicPrefix = true
+    renames = true
 [help]
-        autocorrect = prompt
+    autocorrect = prompt
 [maintenance]
-        # repo = /path/to/repo
+    # repo = /path/to/repo
