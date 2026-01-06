@@ -50,11 +50,14 @@ Now start `ghostty` and continue
 * `gh` cli</br>
   `sudo port install gh`
 * docker
-  * `brew install docker docker-credential-helper docker-buildx`
-  * `brew install colima`
-  * `brew services start colima`
-  * `mkdir -p ~/.oh-my-zsh/plugins/docker/`
-  * `curl -fLo ~/.oh-my-zsh/plugins/docker/_docker https://raw.githubusercontent.com/docker/cli/master/contrib/completion/zsh/_docker`
+  ```bash
+  sudo port install docker \
+                    docker-credential-helper-osxkeychain \
+                    docker-buildx-plugin \
+                    docker-compose-plugin\
+                    colima
+  ```
+  * `mkdir -p $HOME/.docker` and create a `config.json`, including at least the config in [`docker/config.json`](docker/config.json)
 * [`uv`](https://github.com/astral-sh/uv)
 ### other
 * vim
