@@ -1,0 +1,13 @@
+# you should check your actual colima.yaml and modify the following keys
+
+cpu: 6
+
+disk: 200
+
+# if there is a top level key called 'rosetta', delete it
+# there should be a section like this, if not, add it
+vmOpts:
+  vz:
+    rosetta:
+      enabled: true
+      binfmt: true

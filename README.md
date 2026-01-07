@@ -1,6 +1,8 @@
 # dotfiles
 Things from various dotfiles to remember and re-use, and references for setting up a new mac
 
+## About this repo
+Some of the directories in this repo contain templates for config files you should place in your home directory. See e.g. the instructions for `ghostty` below.
 
 ## Set up guides
 * https://www.stuartellis.name/articles/mac-setup/</br>
@@ -23,7 +25,7 @@ Things from various dotfiles to remember and re-use, and references for setting 
   * `brew install zsh-autosuggestions`
   * `brew install zsh-syntax-highlighting`
 * [ghostty](https://ghostty.org/download)</br>
-  * softlink from `ghostty/config` to `$HOME/.config/ghostty/config`
+  * softlink from `.config/ghostty/config` to `$HOME/.config/ghostty/config`
 
 ## ...then these
 Now start `ghostty` and continue
@@ -56,6 +58,7 @@ Now start `ghostty` and continue
                     docker-buildx-plugin \
                     docker-compose-plugin\
                     colima
+  softwareupdate --install-rosetta
   ```
   * `mkdir -p $HOME/.docker` and create a `config.json`, including at least the config in [`docker/config.json`](docker/config.json)
 * [`uv`](https://github.com/astral-sh/uv)
