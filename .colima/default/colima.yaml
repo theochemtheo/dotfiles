@@ -1,13 +1,13 @@
 # you should check your actual colima.yaml and modify the following keys
 
 cpu: 6
+disk: 100
 
-disk: 200
-
-# if there is a top level key called 'rosetta', delete it
-# there should be a section like this, if not, add it
-vmOpts:
-  vz:
-    rosetta:
-      enabled: true
-      binfmt: true
+# merge this into the `docker` key to set the mount point properly
+docker:
+  data-root: /mnt/lima-colima/docker
+  exec-opts:
+    - native.cgroupdriver=cgroupfs
+  features:
+    buildkit: true
+    containerd-snapshotter: true
