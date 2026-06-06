@@ -6,7 +6,7 @@ export plugins=(
   uv
   jj
   docker
-  )
+)
 source $ZSH/oh-my-zsh.sh
 
 alias svba="source .venv/bin/activate"
@@ -16,9 +16,9 @@ alias ls="lsd"
 alias sed="gsed"
 
 # cd shortcuts
-cdw () { cd "$HOME"/w || exit; }
-cdp () { cd "$HOME"/p || exit; }
-cdr () { cd "$(git rev-parse --show-toplevel)" || exit; }
+cdw() { cd "$HOME"/w || exit; }
+cdp() { cd "$HOME"/p || exit; }
+cdr() { cd "$(git rev-parse --show-toplevel)" || exit; }
 
 # keybinds
 bindkey "^[[1;3C" forward-word      # ⌥ + ←
@@ -32,13 +32,18 @@ eval "$(uv --generate-shell-completion zsh)"
 # Fix completions for uv run.
 # https://github.com/astral-sh/uv/issues/8432#issuecomment-2867318195
 _uv_run_mod() {
-    if [[ "$words[2]" == "run" && "$words[CURRENT]" != -* ]]; then
-        _arguments '*:filename:_files'
-    else
-        _uv "$@"
-    fi
+  if [[ "$words[2]" == "run" && "$words[CURRENT]" != -* ]]; then
+    _arguments '*:filename:_files'
+  else
+    _uv "$@"
+  fi
 }
 compdef _uv_run_mod uv
 
 # external zsh plugins must be at end of file
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+eval "$(starship init zsh)"
+# transient prompt
+TRANSIENT_PROMPT_TRANSIENT_PROMPT='%F{green}❯%f '
+TRANSIENT_PROMPT_TRANSIENT_RPROMPT=''
+source "$(brew --prefix)/share/zsh-transient-prompt/transient-prompt.zsh-theme"

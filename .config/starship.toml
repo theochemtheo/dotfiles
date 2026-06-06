@@ -1,0 +1,30 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+add_newline = true
+
+format = """
+$directory$git_branch$git_status$python$conda$docker_context$cmd_duration
+$character"""
+
+right_format = "$time"
+
+[character]
+success_symbol = "[❯](bold green)"
+error_symbol = "[❯](bold red)"
+
+[directory]
+truncation_length = 3
+truncate_to_repo = true
+
+[python]
+format = "via [${symbol}${pyenv_prefix}(${version} )(\\($virtualenv\\) )]($style)"
+
+[conda]
+format = "via [$symbol$environment]($style) "
+
+[docker_context]
+format = "via [$symbol$context]($style) "
+
+[cmd_duration]
+min_time = 3000
+format = "took [$duration]($style) "

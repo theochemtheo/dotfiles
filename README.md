@@ -21,6 +21,9 @@ Some of the directories in this repo contain templates for config files you shou
   * always try `sudo port install ...` over `brew install`
 * zsh
   * [oh my zsh](https://ohmyz.sh/)
+  * [starship]
+    * `sudo port install starship`
+    * transient starship prompt `brew install olets/tap/zsh-transient-prompt`
   * `brew install zsh-autosuggestions`
   * `brew install zsh-syntax-highlighting`
 * [ghostty](https://ghostty.org/download)</br>
