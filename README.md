@@ -21,7 +21,6 @@ Some of the directories in this repo contain templates for config files you shou
   * always try `sudo port install ...` over `brew install`
 * zsh
   * [oh my zsh](https://ohmyz.sh/)
-  * [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
   * `brew install zsh-autosuggestions`
   * `brew install zsh-syntax-highlighting`
 * [ghostty](https://ghostty.org/download)</br>
